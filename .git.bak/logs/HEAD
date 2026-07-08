@@ -1,0 +1,17 @@
+0000000000000000000000000000000000000000 e68a026c94d65d84b2407ca2d289ce9d09af05ee Anagh Vasishtha <vasishthaanagh@gmail.com> 1781764393 +0530	commit (initial): Initial commit
+e68a026c94d65d84b2407ca2d289ce9d09af05ee 0000000000000000000000000000000000000000 Anagh Vasishtha <vasishthaanagh@gmail.com> 1781764394 +0530	Branch: renamed refs/heads/master to refs/heads/main
+0000000000000000000000000000000000000000 e68a026c94d65d84b2407ca2d289ce9d09af05ee Anagh Vasishtha <vasishthaanagh@gmail.com> 1781764394 +0530	Branch: renamed refs/heads/master to refs/heads/main
+e68a026c94d65d84b2407ca2d289ce9d09af05ee e68a026c94d65d84b2407ca2d289ce9d09af05ee Anagh Vasishtha <vasishthaanagh@gmail.com> 1781975603 +0530	checkout: moving from main to vercel-deploy
+e68a026c94d65d84b2407ca2d289ce9d09af05ee 245425da84e0075b2e5c454e57e84df225890797 Anagh Vasishtha <vasishthaanagh@gmail.com> 1781975648 +0530	commit: Configure project for Vercel deployment, merge frontend submodule into monorepo
+245425da84e0075b2e5c454e57e84df225890797 e68a026c94d65d84b2407ca2d289ce9d09af05ee Anagh Vasishtha <vasishthaanagh@gmail.com> 1781976116 +0530	checkout: moving from vercel-deploy to main
+e68a026c94d65d84b2407ca2d289ce9d09af05ee 245425da84e0075b2e5c454e57e84df225890797 Anagh Vasishtha <vasishthaanagh@gmail.com> 1781976116 +0530	merge vercel-deploy: Fast-forward
+245425da84e0075b2e5c454e57e84df225890797 245425da84e0075b2e5c454e57e84df225890797 Anagh Vasishtha <vasishthaanagh@gmail.com> 1781976135 +0530	reset: moving to HEAD
+245425da84e0075b2e5c454e57e84df225890797 672cd21d8e84c6d44c1d30fbec663e41a6d16407 Anagh Vasishtha <vasishthaanagh@gmail.com> 1781976138 +0530	pull origin main --rebase (start): checkout 672cd21d8e84c6d44c1d30fbec663e41a6d16407
+672cd21d8e84c6d44c1d30fbec663e41a6d16407 245425da84e0075b2e5c454e57e84df225890797 Anagh Vasishtha <vasishthaanagh@gmail.com> 1781976146 +0530	rebase (abort): returning to refs/heads/main
+245425da84e0075b2e5c454e57e84df225890797 602aac9151fff77fbdae155e7413132d5840701d Anagh Vasishtha <vasishthaanagh@gmail.com> 1781976164 +0530	merge origin/main: Merge made by the 'ort' strategy.
+602aac9151fff77fbdae155e7413132d5840701d dd8742d58e97b40d85427ff8bd022677ac248f2c Anagh Vasishtha <vasishthaanagh@gmail.com> 1781976564 +0530	commit: Add root API route for easier deployment verification
+dd8742d58e97b40d85427ff8bd022677ac248f2c a81a1f855815c09d3960470de1b446cfd8e2016d Anagh Vasishtha <vasishthaanagh@gmail.com> 1781977245 +0530	commit: Fix TypeScript compilation and configuration issues for Vercel build
+a81a1f855815c09d3960470de1b446cfd8e2016d 092cb0b4a7ef997e6fe279a82d6e0c8ecd740890 Anagh Vasishtha <vasishthaanagh@gmail.com> 1781977804 +0530	commit: Fix write permission crash on Vercel by disabling file logging in serverless environments
+092cb0b4a7ef997e6fe279a82d6e0c8ecd740890 361bb120c7824fa6cb706bebd7aeccef821144a8 Anagh Vasishtha <vasishthaanagh@gmail.com> 1781978076 +0530	commit: Redirect PDF uploads to /tmp on Vercel to allow temporary serverless ingestion
+361bb120c7824fa6cb706bebd7aeccef821144a8 f61eea346550f9ad421cee27b656dc8bb203a469 Anagh Vasishtha <vasishthaanagh@gmail.com> 1781978974 +0530	commit: Add explicit DATABASE_URL alias to settings for Vercel deployment
+f61eea346550f9ad421cee27b656dc8bb203a469 71387da4be561a344c077f685c3015c0753371a3 Anagh Vasishtha <vasishthaanagh@gmail.com> 1781979144 +0530	commit: Expose masked database_url in /health for debugging

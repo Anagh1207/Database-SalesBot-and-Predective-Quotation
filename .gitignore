@@ -1,0 +1,22 @@
+# Environment variables
+backend/.env
+.env
+
+# Python caching & logs
+__pycache__/
+*.pyc
+*.pyo
+backend/logs/
+backend/app/api/__pycache__/
+backend/retrieval/__pycache__/
+**/__pycache__/
+
+# Node/React dependencies and builds
+ui/node_modules/
+ui/dist/
+node_modules/
+dist/
+
+# OS files
+.DS_Store
+Thumbs.db

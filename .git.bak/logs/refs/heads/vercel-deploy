@@ -1,0 +1,2 @@
+0000000000000000000000000000000000000000 e68a026c94d65d84b2407ca2d289ce9d09af05ee Anagh Vasishtha <vasishthaanagh@gmail.com> 1781975603 +0530	branch: Created from HEAD
+e68a026c94d65d84b2407ca2d289ce9d09af05ee 245425da84e0075b2e5c454e57e84df225890797 Anagh Vasishtha <vasishthaanagh@gmail.com> 1781975648 +0530	commit: Configure project for Vercel deployment, merge frontend submodule into monorepo

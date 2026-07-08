@@ -1,0 +1,1 @@
+Expose masked database_url in /health for debugging

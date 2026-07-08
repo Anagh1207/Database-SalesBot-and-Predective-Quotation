@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --app-bg: 248 250 252;
+    --app-surface: 255 255 255;
+    --app-border: 226 232 240;
+    --app-text-primary: 15 23 42;
+    --app-text-secondary: 100 116 139;
+    --app-accent: 37 99 235;
+    --app-accent-hover: 29 78 216;
+    --app-accent-light: 219 234 254;
+  }
+
+  :root.dark {
+    --app-bg: 15 23 42;
+    --app-surface: 30 41 59;
+    --app-border: 51 65 85;
+    --app-text-primary: 241 245 249;
+    --app-text-secondary: 148 163 184;
+    --app-accent: 96 165 250;
+    --app-accent-hover: 59 130 246;
+    --app-accent-light: 30 58 95;
+  }
+
+  html {
+    background: rgb(var(--app-bg));
+  }
+
+  body {
+    @apply bg-app-bg text-app-text-primary font-sans antialiased;
+    margin: 0;
+    min-width: 320px;
+    min-height: 100vh;
+    transition: background-color 180ms ease, color 180ms ease;
+  }
+
+  button, a, input, textarea, select {
+    @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-app-accent focus-visible:ring-offset-2 focus-visible:ring-offset-app-bg;
+  }
+}
+
+/* Custom styling for scrollbars to keep a clean, modern SaaS look */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #E5E7EB;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #D1D5DB;
+}
+
+@layer utilities {
+  .dark .bg-white {
+    background-color: rgb(var(--app-surface));
+  }
+
+  .dark .bg-gray-50,
+  .dark .bg-gray-100,
+  .dark .bg-slate-100 {
+    background-color: rgb(var(--app-bg));
+  }
+
+  .dark .text-slate-500,
+  .dark .text-slate-700,
+  .dark .text-gray-400 {
+    color: rgb(var(--app-text-secondary));
+  }
+
+  .dark .hover\:bg-gray-100:hover,
+  .dark .hover\:bg-gray-200:hover {
+    background-color: rgb(var(--app-bg));
+  }
+}

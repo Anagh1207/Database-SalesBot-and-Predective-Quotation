@@ -1,0 +1,23 @@
+# Consolidated requirements for Sales Chatbot + Construction AI Systems
+fastapi>=0.110
+uvicorn[standard]
+sqlalchemy>=2.0
+psycopg2-binary>=2.9
+pandas
+openpyxl
+pydantic>=2.6
+pydantic-settings
+python-dotenv
+openai
+sqlglot
+
+# Construction AI Retrieval and Estimation libraries
+# fastembed uses ONNX runtime — replaces sentence-transformers + torch (~1.2 GB saved)
+fastembed
+faiss-cpu
+PyMuPDF
+pdfplumber
+sqlite-utils
+groq
+python-multipart
+numpy
